@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginTop="25dp">
+
+<TextView
+        android:id="@+id/detail_tv_amount"
+        style="@style/DetailTextStyle"
+        android:text="@string/detail_label_amount" />
+
+    <TextView
+        android:id="@+id/detail_tv_currency"
+        style="@style/DetailTextStyle"
+        android:text="@string/detail_label_currency" />
+
+    <TextView
+        android:id="@+id/detail_tv_category"
+        style="@style/DetailTextStyle"
+        android:text="@string/detail_label_category" />
+
+    <TextView
+        android:id="@+id/detail_tv_remark"
+        style="@style/DetailTextStyle"
+        android:text="@string/detail_label_remark" />
+
+    <TextView
+        android:id="@+id/detail_tv_date"
+        style="@style/DetailTextStyle"
+        android:text="@string/detail_label_date" />
+
+</LinearLayout>

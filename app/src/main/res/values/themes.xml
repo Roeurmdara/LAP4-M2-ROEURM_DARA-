@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Todo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- For example:
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        -->
+    </style>
+
+    <!-- ======================================================= -->
+    <!-- == ADD THIS STYLE FOR THE DETAIL ACTIVITY            == -->
+    <!-- ======================================================= -->
+    <style name="DetailTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+    <!-- ======================================================= -->
+
+</resources>

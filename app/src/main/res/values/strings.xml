@@ -1,0 +1,40 @@
+<resources>
+    <!-- Your existing app name string -->
+    <string name="app_name">Expense Tracker</string>
+
+    <!-- ======================================================= -->
+    <!-- == Navigation Titles                                 == -->
+    <!-- ======================================================= -->
+    <string name="nav_home_title">Home</string>
+    <string name="nav_add_title">Add</string>
+    <string name="nav_list_title">List</string>
+
+    <!-- ======================================================= -->
+    <!-- == Fragment & Activity Titles                        == -->
+    <!-- ======================================================= -->
+    <string name="fragment_home_title">Expense Summary</string>
+    <string name="fragment_home_latest_expense">Latest Expense: Lunch - $12.50</string>
+    <string name="fragment_add_expense_title">Add New Expense</string>
+
+    <!-- ======================================================= -->
+    <!-- == Expense Detail Labels                             == -->
+    <!-- ======================================================= -->
+    <string name="detail_label_amount">Amount: %1$.2f</string> <!-- Example for formatting -->
+    <string name="detail_label_currency">Currency: %1$s</string>
+    <string name="detail_label_category">Category: %1$s</string>
+    <string name="detail_label_remark">Remark: %1$s</string>
+    <string name="detail_label_date">Date: %1$s</string>
+
+    <!-- ======================================================= -->
+    <!-- == General Messages & Hints                          == -->
+    <!-- ======================================================= -->
+    <string name="error_expense_not_found">Expense not found!</string>
+    <string name="error_invalid_expense_id">Invalid Expense ID!</string>
+    <string name="hint_amount">Amount</string>
+    <string name="hint_currency">Currency</string>
+    <string name="hint_category">Category</string>
+    <string name="hint_remark">Remark</string>
+    <string name="hint_date">Date (YYYY-MM-DD)</string>
+    <string name="button_save_expense">Save Expense</string>
+
+</resources>
