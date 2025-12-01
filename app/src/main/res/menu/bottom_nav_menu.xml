@@ -12,4 +12,5 @@
         android:id="@+id/nav_list"
         android:icon="@android:drawable/ic_menu_agenda"
         android:title="List" />
+
 </menu>

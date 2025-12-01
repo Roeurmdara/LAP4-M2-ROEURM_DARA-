@@ -3,16 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="15dp"
+    android:padding="16dp"
+    android:layout_marginTop="12dp"
+    android:layout_marginHorizontal="16dp"
+    android:background="@drawable/bg_expense_item"
     android:clickable="true"
-    android:focusable="true"
-    android:background="?android:attr/selectableItemBackground"
-    android:layout_marginTop="32dp">
+    android:focusable="true">
 
+    <!-- Top Row: Amount and Category -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
 
         <TextView
             android:id="@+id/tv_amount"
@@ -20,29 +23,39 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="50.00 USD"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/tv_category"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Food"
-            android:textSize="16sp" />
+            android:textSize="14sp"
+            android:textColor="@color/blue_light"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:background="@drawable/bg_category_label" />
     </LinearLayout>
 
+    <!-- Remark -->
     <TextView
         android:id="@+id/tv_remark"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Lunch with colleagues"
-        android:layout_marginTop="4dp"/>
+        android:layout_marginTop="6dp"
+        android:textSize="14sp"
+        android:textColor="@color/dark_gray" />
 
+    <!-- Date -->
     <TextView
         android:id="@+id/tv_date"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="2025-10-28"
         android:layout_marginTop="4dp"
-        android:textSize="12sp" />
+        android:textSize="12sp"
+        android:textColor="@color/gray" />
 </LinearLayout>

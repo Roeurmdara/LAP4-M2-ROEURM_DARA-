@@ -12,8 +12,8 @@
     <!-- ======================================================= -->
     <!-- == Fragment & Activity Titles                        == -->
     <!-- ======================================================= -->
-    <string name="fragment_home_title">Expense Summary</string>
-    <string name="fragment_home_latest_expense">Latest Expense: Lunch - $12.50</string>
+    <string name="fragment_home_title">Expense +</string>
+    <string name="fragment_home_latest_expense">Latest Expense: Lunch - $112.50</string>
     <string name="fragment_add_expense_title">Add New Expense</string>
 
     <!-- ======================================================= -->
